@@ -1,0 +1,58 @@
+﻿body {
+    font-family: "Courier New", courier, monospace;
+    font-size: 18px;
+}
+
+#status {
+    color: gray;
+    border: 1px solid gray;
+    text-align: center;
+    width: 300px;
+    margin-left: 14px;
+    margin-bottom: 24px;
+}
+
+#input-holder {
+    padding-left: 10px;
+}
+
+#msg {
+    width: 300px;
+}
+
+img {
+    width: 128px;
+}
+
+#body {
+    width: 350px;
+}
+
+.msg {
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.msg, input {
+    margin: 10px;
+}
+
+.login {
+    border-bottom: black solid thin;
+    margin-bottom: 3px;
+}
+
+.local {
+    text-align: left;
+    background-color: aquamarine;
+}
+
+    .local > div.data {
+        font-weight: bold;
+    }
+
+.remote {
+    text-align: right;
+    background-color: darkgray;
+}
